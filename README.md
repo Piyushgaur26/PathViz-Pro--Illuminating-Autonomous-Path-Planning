@@ -81,6 +81,8 @@ pipenv shell
 python base.py
 ```
 
+![App Preview](media/prm_stage_1.gif)
+
 # Local Planners
 
 ## Probabilistic Roadmap (PRM)
