@@ -63,13 +63,13 @@ for calculations for the potential field planner.
 1. Clone the repo
 
 ```bash
-git clone https://github.com/abdurj/PathViz-Pro.git
+git clone https://github.com/Piyushgaur26/PathViz-Pro--Illuminating-Autonomous-Path-Planning.git
 ```
 
 2. Install Dependencies
 
 ```bash
-cd Local-Planner-Visualization-Project
+cd PathViz-Pro--Illuminating-Autonomous-Path-Planning
 pip3 install pipenv
 pipenv install
 ```
@@ -99,15 +99,11 @@ uniform sampling techniques, non-uniform sampling techniques can be used to bett
 
 Non-uniform sampling methods are planned for a future release
 
-![App Preview](https://i.imgur.com/4iWmjax.gif)
-
 ### 2. Creating the roadmap
 
 In the next stage, the planner finds the `K` closest neighbours for each node. It then uses a simple local path planner
 to connect the node with it's neighbour nodes without trying to avoid any obstacles. This is done by simply
 creating a straight line between the nodes. If this line is collision free; an edge is created between the nodes.
-
-![App Preview](https://i.imgur.com/8w35Gi3.gif)
 
 ### 3. Searching the Roadmap
 
@@ -120,8 +116,6 @@ This network can be searched with a graph search algorithm. The currently suppor
 
 More search algorithms are planned for a future release.
 
-![App Preview](https://i.imgur.com/xshynqi.gif)
-
 ## Rapidly-exploring Random Tree (RRT)
 
 The rapidly-exploring random tree planner is another sampling based planner that explores the C-space by growing a tree rooted at the starting configuration.
@@ -129,7 +123,6 @@ It then randomly samples the free c-space, and attempts to connect the random sa
 The length of the connection is limited by a growth factor, or "step size". In path planning problems, a bias factor
 is introduced into the RRT. This bias factor introduces a probability that the random sample will be the goal pose.
 Increasing the bias factor affects how greedily the tree expands towards the goal.
-![RRT](https://i.imgur.com/JxkF82B.gif)
 
 ## Potential Field
 
@@ -138,11 +131,10 @@ The goal pose emits a strong attractive force, and the obstacles emit a repulsiv
 creating a artificial potential field that attracts the robot towards the goal. The goal pose emits a strong attractive field,
 and each obstacle emits a repulsive field. By following the sum of all fields at each position, we can construct a path towards
 the goal pose.
-![PF Demo](https://i.imgur.com/3HYFFsI.gif)
 
 ### Virtual Fields
 
 A problem with the potential field planner is that it is easy for the planner to get stuck in local
 minima traps. Thus the Virtual Field method proposed by Ding Fu-guang et al. in [this paper](https://ieeexplore.ieee.org/document/1626816)
 has been implemented to steer the path towards the open free space in the instance where the path is stuck.
-![Virtual Field](https://i.imgur.com/MvO76Wq.gif)
+![Virtual Field]
