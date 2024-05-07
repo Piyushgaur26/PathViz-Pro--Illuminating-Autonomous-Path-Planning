@@ -12,13 +12,6 @@
   - [Rapidly-exploring Random Tree (RRT)](#rapidly-exploring-random-tree-rrt)
   - [Potential Field](#potential-field)
     - [Virtual Fields](#virtual-fields)
-  - [Grid Based Planner](#grid-based-planner)
-- [Current Issues](#current-issues)
-- [Contributing](#contributing)
-- [Roadmap](#roadmap)
-- [Authors](#authors)
-- [Acknowledgements](#acknowledgements)
-- [License](#license)
 
 # PathViz Pro: Illuminating Autonomous Path Planning
 
