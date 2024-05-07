@@ -28,7 +28,7 @@ provides customizable parameters to better understand the inner workings of each
 
 ![App Preview](media/lpvp.gif)
 
-<!-- add proper gif link -->
+![App Preview](media/prm_stage_1.gif)
 
 # Features
 
@@ -80,8 +80,6 @@ pipenv install
 pipenv shell
 python base.py
 ```
-
-![App Preview](media/prm_stage_1.gif)
 
 # Local Planners
 
