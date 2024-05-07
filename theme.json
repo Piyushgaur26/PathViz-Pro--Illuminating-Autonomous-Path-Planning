@@ -1,0 +1,247 @@
+{
+    "defaults":
+    {
+        "colours":
+        {
+            "normal_bg":"#45494e",
+            "hovered_bg":"#35393e",
+            "disabled_bg":"#25292e",
+            "selected_bg":"#193754",
+            "dark_bg":"#303136",
+            "normal_text":"#c5cbd8",
+            "hovered_text":"#FFFFFF",
+            "selected_text":"#FFFFFF",
+            "disabled_text":"#6d736f",
+            "link_text": "#0000EE",
+            "link_hover": "#2020FF",
+            "link_selected": "#551A8B",
+            "text_shadow": "#777777",
+            "normal_border": "#DDDDDD",
+            "hovered_border": "#B0B0B0",
+            "disabled_border": "#808080",
+            "selected_border": "#8080B0",
+            "active_border": "#8080B0",
+            "filled_bar":"#f4251b",
+            "unfilled_bar":"#CCCCCC"
+        }
+    },
+
+    "toolbar":
+    {
+        "colours":
+        {
+            "normal_bg":"#363940",
+            "hovered_bg":"#363940",
+            "disabled_bg":"#363940",
+            "selected_bg":"#363940",
+            "active_bg":"#363940",
+            "dark_bg":"#363940",
+            "normal_text":"#c5cbd8",
+            "hovered_text":"#FFFFFF",
+            "selected_text":"#FFFFFF",
+            "disabled_text":"#6d736f",
+            "active_text":"#FFFFFF",
+            "normal_border": "#363940",
+            "hovered_border": "#363940",
+            "disabled_border": "#363940",
+            "selected_border": "#363940",
+            "active_border": "#363940"
+        }
+    },
+
+    "option_panel":
+    {
+        "colours":
+        {
+            "normal_bg":"#363940",
+            "hovered_bg":"#363940",
+            "disabled_bg":"#363940",
+            "selected_bg":"#363940",
+            "active_bg":"#363940",
+            "dark_bg":"#363940",
+            "normal_text":"#c5cbd8",
+            "hovered_text":"#FFFFFF",
+            "selected_text":"#FFFFFF",
+            "disabled_text":"#6d736f",
+            "active_text":"#FFFFFF",
+            "normal_border": "#363940",
+            "hovered_border": "#363940",
+            "disabled_border": "#363940",
+            "selected_border": "#363940",
+            "active_border": "#363940"
+        }
+    },
+
+    "button":
+    {
+        "colours":
+        {
+            "normal_bg":"#303136",
+            "hovered_bg":"#D6D8FD",
+            "active_bg": "#5862D9",
+            "normal_text": "#D6D8FD",
+            "hovered_text": "#303136",
+            "active_text": "#FFFFFF",
+            "normal_border": "#D6D8FD",
+            "hovered_border": "#D6D8FD",
+            "active_border": "#5862D9"
+        },
+
+        "font":
+        {
+            "name": "Roboto",
+            "size": "16",
+            "regular_path": "Roboto/Roboto-Bold.ttf"
+        },
+
+        "misc":
+        {
+            "shape": "rounded_rectangle",
+            "shape_corner_radius": "8",
+            "border_width": "1.5"
+        }
+    },
+
+    "drop_down_menu":
+    {
+        "colours":
+        {
+            "normal_bg":"#303136",
+            "hovered_bg":"#D6D8FD",
+            "active_bg": "#5862D9",
+            "normal_text": "#D6D8FD",
+            "hovered_text": "#303136",
+            "active_text": "#FFFFFF",
+            "normal_border": "#D6D8FD",
+            "hovered_border": "#D6D8FD",
+            "active_border": "#5862D9"
+        },
+
+        "misc":
+        {
+            "shape": "rounded_rectangle",
+            "shape_corner_radius": "8",
+            "border_width": "1.5"
+        }
+    },
+
+    "drop_down_menu.button":
+    {
+        "misc":
+        {
+            "shape": "rounded_rectangle",
+            "shape_corner_radius": "8"
+        }
+    },
+
+    "drop_down_menu.#drop_down_options_list":
+    {
+        "misc":
+        {
+            "shape": "rounded_rectangle",
+            "shape_corner_radius": "8"
+        }
+    },
+
+    "drop_down_menu.#drop_down_options_list.button":
+    {
+        "misc":
+        {
+            "shape": "rounded_rectangle",
+            "shape_corner_radius": "8"
+        }
+    },
+
+    "drop_down_menu.#expand_button": 
+    {
+        "font":
+        {
+            "name": "Default",
+            "size": "12"
+        }
+    },
+
+    "label": 
+    {
+        "colours":
+        {
+            "dark_bg":"#363940",
+            "normal_text": "#D6D8FD",
+            "hovered_text": "#303136",
+            "normal_border": "#363940"
+        },
+
+        "font":
+        {
+            "name": "Roboto",
+            "size": "16",
+            "regular_path": "Roboto/Roboto-Regular.ttf"
+        }
+    },
+
+    "header": 
+    {
+        "colours":
+        {
+            "dark_bg":"#363940",
+            "normal_text": "#FFFFFF",
+            "hovered_text": "#303136",
+            "normal_border": "#363940"
+        },
+
+        "font":
+        {
+            "name": "Roboto",
+            "size": "18",
+            "regular_path": "Roboto/Roboto-Regular.ttf"
+        }
+    },
+
+    "horizontal_slider": 
+    {
+        "misc":
+        {
+            "shape": "rounded_rectangle",
+            "shape_corner_radius": "50",
+            "normal_border": "#363940",
+            "enable_arrow_buttons": "0",
+            "sliding_button_width": "33"
+        }
+    },
+
+    "horizontal_slider.button":
+    {
+        "colours":
+        {
+            "normal_bg":"#D6D8FD",
+            "active_bg": "#5862D9"
+        },
+
+        "misc":
+        {
+            "shape": "rounded_rectangle",
+            "shape_corner_radius": "25"
+        }
+    },
+
+    "simulate":
+    {
+        "colours":
+        {
+            "normal_bg": "#5862D9",
+            "hovered_bg":"#5563f7",
+            "active_bg": "#5563f7",
+            "normal_border": "#5862D9",
+            "hovered_border": "#5862D9",
+            "active_border": "#5E60A8",
+            "normal_text": "#FFFFFF"
+        },
+
+        "font":
+        {
+            "name": "Roboto",
+            "size": "20",
+            "regular_path": "Roboto/Roboto-Bold.ttf"
+        }
+    }
+}
